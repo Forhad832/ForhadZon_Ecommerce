@@ -146,7 +146,7 @@
                 while($row = mysqli_fetch_array($ex)){ ?>
                    
                     <tr>
-                        <td><img width="80px" height="80px" src="./../admin/images/<?php echo $row['img'] ?>" alt=""> 
+                        <td><img width="80px" height="80px" src="./admin/images/<?php echo $row['img'] ?>" alt=""> 
                        </td>
                         <td><?php echo $row['name'] ?> <br>
                         $<?php echo $row['current_price'] ?></td>

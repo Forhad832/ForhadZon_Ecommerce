@@ -187,7 +187,7 @@
                 <form method="post">
                 <div class="card shadow border-0 d-flex flex-column justify-content-between" style="height: 620px;">
                    <div class="card-fullbody">
-                   <img src="./../admin/images/<?php echo $row['img'] ?>" class="card-img img-fluid"  name="img"  alt="">
+                   <img src="./admin/images/<?php echo $row['img'] ?>" class="card-img img-fluid"  name="img"  alt="">
                     <div class="card-body">
                         <div class="card-title">
                             <h4><?php echo $row['name'] ?></h4>
